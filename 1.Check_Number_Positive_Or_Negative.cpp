@@ -19,7 +19,7 @@ int main() {
   (n > 0 ) ? cout << "Positive" : (n < 0) ? cout << "Negative" : cout << "Neutral";
   
   //We can also use it like this for more readibility.
-  //(n > 0 ) ? cout << "Positive" : (n < 0  ? cout << "Negative" : cout << "Neutral");
+  //(n > 0 ) ? cout << "Positive" : ( (n < 0)  ? cout << "Negative" : cout << "Neutral" );
   
   //Used to tell that "No errors in the code".
   return 0;
