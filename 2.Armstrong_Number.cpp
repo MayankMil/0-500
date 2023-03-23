@@ -1,3 +1,4 @@
+//<cmath> header file is used to use mathematical functions like pow() in our code.
 #include <cmath>
 #include <iostream>
 
